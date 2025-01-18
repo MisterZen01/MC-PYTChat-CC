@@ -1,0 +1,30 @@
+# Roadmap
+This roadmap outlines the planned features and improvements for YouTube Crowd Control integration. These enhancements aim to expand functionality, improve user experience, and maintain balance in gameplay.
+### Table of Contents
+- [Planned Commands](#planned-commands)
+- [To-Do List](#to-do-list)
+
+## Planned Commands
+The following commands are planned for future implementation:
+
+- `!xp`: Grants experience points.
+- `!gamerule`: Allows modification of game rules. (not all gamerule commands)
+- `!locate`: Locates a specific structure.
+- `!list`: Displays a list of players in the game.
+- `!seed`: Reveals the world seed.
+- `!playsound`: Plays a custom sound effect.
+- `!attribute`: Adjusts player or entity attributes.
+- `!ride`: Causes the player to mount an entity.
+- `!particle`: Generates visual particle effects.
+- `!tick`: Modifies the game's tick speed.
+- `!anvil`: Drops an anvil on the player.
+
+## To-Do List
+The following tasks will enhance gameplay mechanics and balance:
+
+- **Reduce item stack size**: Adjust item drop amounts from 16 to 8.
+- **Anti-spam system**: Prevent command spamming by disallowing repeated commands in succession. Players must use a different command for it to register.
+- **Individual cooldowns**: Implement cooldown timers for each player instead of a global cooldown for chat.
+- **Hostile mob duration**: Extend the summoning duration between hostile mobs.
+- **Single-stack item duration**: Extend the give command duration for items that are single-stack.
+- **Spawning Radius**: Summoning a mob will spawn them within a 5 block radius, possible in any direction, instead of on the character
