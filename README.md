@@ -77,7 +77,7 @@ If you encounter any issues or have suggestions for improvements, please feel fr
 To see a list of planned improvements and future updates, please review the **Roadmap**.
 
 ## Known Bugs
-No known bugs at this time of posting (1/18/25)
+- `!drop-all` command sometimes has hiccups and skips some items. Only reliable when standing still
 
 ## Contribution
 Thank you for visiting this repository! Contributions are optional but always appreciated.  You can help by:
