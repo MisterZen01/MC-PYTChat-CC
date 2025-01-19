@@ -14,7 +14,7 @@
 ## Overview
 **Crowd Control** is a Python script that integrates live chat commands from YouTube with Minecraft gameplay. Viewers can control the player's actions in Minecraft through messages sent in the YouTube live chat. Commands such as `!screenshot` and `!move` trigger actions like taking screenshots or moving the character within Minecraft.
 
-This project requires the `pytchat`, `pyautogui`, and `minescript` libraries and allows real-time interaction between the YouTube chat and Minecraft's game environment.
+This project requires the `pytchat`, `pyautogui`, and `minescript` libraries, allowing real-time interaction between the YouTube chat and Minecraft's game environment.
 
 ## Features
 - **Real-time YouTube Chat Integration**: Viewers' chat messages directly influence Minecraft gameplay.
@@ -46,7 +46,7 @@ Before you begin, ensure you have the following installed:
 
 2. Download and place the `control.py` script in the newly generated **minescript** folder.
 
-3. Start Minecraft, open the chat window, and type the following command to run the script: `/control`
+3. Start Minecraft, open the chat window, and type the following command to run the script: `\control`
 
 4. It should then say **"Starting Crowd Control..."** and you'll be able to start seeing YouTube live chat messages in Minecraft.
 
