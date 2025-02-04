@@ -3,6 +3,7 @@ This roadmap outlines the planned features and improvements for YouTube Crowd Co
 ### Table of Contents
 - [Planned Commands](#planned-commands)
 - [To-Do List](#to-do-list)
+- [Add more entities](#add-more-entities)
 
 ## Planned Commands
 The following commands are planned for future implementation:
@@ -28,6 +29,9 @@ The following tasks will enhance gameplay mechanics and balance:
 - **Hostile mob duration**: Extend the summoning duration between hostile mobs.
 - **Single-stack item duration**: Extend the give command duration for items that are single-stack.
 - **Spawning Radius**: Summoning a mob will spawn them within a 5 block radius, possible in any direction, instead of on the character
+- **Reaction to YouTube**: Liking, Subscribing, Superchat, Membership, Sharing?, Clipping?
+- **Face Detection Command**: Activates command due to having a certain facial reaction
+- **Super Secret Settings options**: Try to impliment those settings in Minecraft (Souper Secret Settings Fabric Mod 1.21)(Make separate)
 
 ## Add more entities:
 - Summon Unused paintings, spawner_minecart, Vindicator with the name Johnny
