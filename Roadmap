@@ -1,38 +1,63 @@
-# Roadmap
+Roadmap
 This roadmap outlines the planned features and improvements for YouTube Crowd Control integration. These enhancements aim to expand functionality, improve user experience, and maintain balance in gameplay.
-### Table of Contents
-- [Planned Commands](#planned-commands)
-- [To-Do List](#to-do-list)
-- [Add more entities](#add-more-entities)
 
-## Planned Commands
-The following commands are planned for future implementation:
+Planned Commands:
+- !painting: Gives the player a specific painting (including unsused paintings)
 
-- `!xp`: Grants experience points.
-- `!gamerule`: Allows modification of game rules. (not all gamerule commands)
-- `!locate`: Locates a specific structure.
-- `!list`: Displays a list of players in the game.
-- `!seed`: Reveals the world seed.
-- `!playsound`: Plays a custom sound effect.
-- `!attribute`: Adjusts player or entity attributes.
-- `!ride`: Causes the player to mount an entity.
-- `!particle`: Generates visual particle effects.
-- `!tick`: Modifies the game's tick speed.
-- `!anvil`: Drops an anvil on the player.
+Planned Command Changes:
+- !enchant: Give enchanted book instead of enchanting the held item
+- !speed <freeze>: Reinstate !freeze under the !speed command
 
-## To-Do List
+To-Do List (Not in any particular order):
 The following tasks will enhance gameplay mechanics and balance:
+- Spawning Radius: Summoning a mob will spawn them within a 5-block radius in any direction instead of on the character
+- Reaction to YouTube: Commands triggered by Liking, Subscribing, Superchat, Membership, Sharing, and Clipping
+- Blocking: Blocks messages or replaces profanity with asterisks
+- Dynamic Cooldown: Automatically adjusts cooldown time based on overuse per user
+- Dynamic Difficulty: More viewers = Higher difficulty
+- Command Stacking: Allows stacking commands (e.g., !move forward 5 would execute the command 5 times and multiply the cooldown accordingly)
+- Easier cooldown time adjustment FROM command calls (e.g., !screenshot, screenshot_command(c.message, user))
+- Universal Dictionary: Standardized global variables (e.g., user, global, cooldown, last_command, etc.)
+- More complex cooldown timing: Implement global, command-specific, categorical, and subcommand cooldowns
+- Ensure all commands have global user_last_command or global cooldown tracking
+- Simplify Anti-Spam Check, integrate it into the commands function to call cooldown management instead of having each commands have it own Anti-Spam Check
+- Add dictionaries inside functions to allow customizable commands (e.g., gravity, speed, etc.)
+- Notify and Guide/Tip users when a command is incomplete
+- Events: Implement limited-time or special events based on the number of current viewers
+- Properties.txt: Stores a URL for the code to fetch updates or settings
+- Make cooldown time optional (configurable in properties.txt)
+- Make anti-spam optional (configurable in properties.txt)
+- Simplify and improve command usability for users
+- Make code compatible with popular modpacks
 
-- **Reduce item stack size**: Adjust item drop amounts from 16 to 8.
-- **Anti-spam system**: Prevent command spamming by disallowing repeated commands in succession. Players must use a different command for it to register.
-- **Individual cooldowns**: Implement cooldown timers for each player instead of a global cooldown for chat.
-- **Hostile mob duration**: Extend the summoning duration between hostile mobs.
-- **Single-stack item duration**: Extend the give command duration for items that are single-stack.
-- **Spawning Radius**: Summoning a mob will spawn them within a 5 block radius, possible in any direction, instead of on the character
-- **Reaction to YouTube**: Liking, Subscribing, Superchat, Membership, Sharing?, Clipping?
-- **Face Detection Command**: Activates command due to having a certain facial reaction
-- **Super Secret Settings options**: Try to impliment those settings in Minecraft (Souper Secret Settings Fabric Mod 1.21)(Make separate)
+Command Ideas:
+The following commands are ideas for future implementation:
+- !attribute: Adjust more player or entity attributes
+- !gamerule: Temporarily modifies gamerules (60sec duration, cost: 600sec)
+- !motion <slow, fast>:
+Slow motion: 30sec duration, cost: 60sec (reduces tick rate and tick speed)
+Fast motion: 30sec duration, cost: 30sec (increases tick rate, tick speed, and movement speed)
+- !damage <item>: cost: 60sec
+- !heal <item>: (Repairs item) costs: 30sec
+- !enchant <remove>: Removes enchants from held item, cost: 600sec
+- !hunger <remove>: Removes all food from inventory, cost: 600sec
+- !flip <1, all>: Applies Dinnerbone nametag effect (not visible), cost: 60 seconds
+- !shuffle: Randomizes in-game language
+- !lock <none, ground, sky>: Locks camera, 15sec duration (similar to !freeze but allow movement)
+none: cost: 180sec
+ground/sky: cost: 360sec
+- !invert <camera, controls>: 30sec duration, cost: 300sec
+- !sensitivity: Increas or decrease mouse sensitivity, 15sec duration, cost: 150sec
+- !mouse: Combines attack, use, and pick functions
+- !lookout: Teleports character into the sky 50 blocks and slow falling to prevent fall damage
+- Consolidate Inventory command? <open, !drop command, scramble>
+- Add secret/easter egg commands
 
-## Add more entities:
-- Summon Unused paintings, spawner_minecart, Vindicator with the name Johnny
-- Give the player a nametag with "Dinnerbone" and/or "Grumm" already on it
+Other Ideas:
+- Voting System: Allows viewers to vote on more impactful commands
+- Loyalty-based Perks: Cooldown time varies based on user loyalty (Free, Subscriber, Member Tiers 1-5, Moderator, Superchat Donors, Whitelist)
+- Daily Limits: Implement limits on certain commands
+- Face Detection: Activates a command based on facial reactions
+
+Needs Testing:
+- Async processing and command queuing for multiple users, first-in, first-out command order
