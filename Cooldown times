@@ -1,0 +1,157 @@
+Commands and Cooldowns
+
+Basic Commands
+!perspective – 5 sec
+!selfie – 5 sec
+!chat – 5 sec
+!inventory – 5 sec
+!swap – 5 sec
+!180 – 10 sec
+!dev – 15 sec
+!seed – 15 sec
+!list – 15 sec
+!nojump – 30 sec
+!scramble – 15 sec
+!slot – 5 sec
+!locate – 7.5 sec
+!tickrate – 120 sec
+
+Item Dropping
+!drop <item> – 10 sec
+!drop <all> – 60 sec
+
+Weather Control
+!weather clear – 2.5 sec
+!weather rain – 5 sec
+!weather thunder – 20 sec
+
+Difficulty Change
+!difficulty peaceful – 2.5 sec
+!difficulty easy – 5 sec
+!difficulty normal – 7.5 sec
+!difficulty hard – 10 sec
+
+Gamemode Change
+!gamemode adventure – 20 sec
+!gamemode creative – 20 sec
+!gamemode spectator – 20 sec
+
+Summoning Entities
+!summon passive – 2.5 sec
+!summon neutral – 5 sec
+!summon hostile – 20 sec
+!summon super hostile – 120 sec
+!summon special passive – 2.5 sec
+!summon special hostile – 120 sec
+
+Time Control
+!timeset – 600 sec
+
+Item Giving
+!give common – 2.5
+!give uncommon – 5 sec
+!give rare – 15 sec
+!give epic – 20 sec
+!give admin – 120 sec
+
+Single Stack Condition Items
+!give common_single_stack_condition – 5 sec
+!give uncommon_single_stack_condition – 10 sec
+!give rare_single_stack_condition – 30 sec
+!give epic_single_stack_condition – 40 sec
+
+Armor Types
+!give leather – 2.5
+!give iron – 5 sec
+!give gold – 7.5 sec
+!give diamond – 12.5 sec
+!give netherite – 17.5 sec
+
+Effects
+!effect super positive – 30 sec
+!effect positive – 15 sec
+!effect negative – 30 sec
+!effect super negative – 120 sec
+
+Enchantments
+!enchant positive – 5 sec
+!enchant curse – 30 sec
+
+Riding Entities
+!ride passive – 2.5 sec
+!ride neutral – 5 sec
+!ride hostile – 20 sec
+!ride super hostile – 120 sec
+!ride special passive – 2.5 sec
+!ride special hostile – 120 sec
+
+Experience Management
+!exp give – 10 sec
+!exp take – 30 sec
+!exp reset – 120 sec
+
+Scaling Entities
+!scale player – 60 sec
+!scale passive – 120 sec
+!scale neutral – 240 sec
+!scale hostile – 480 sec
+!scale super hostile – 600 sec
+!scale special passive – 120 sec
+!scale special hostile – 600 sec
+
+Game Rules
+!gamerule – 300 sec
+
+Gravity Settings
+!gravity space – 60 sec
+!gravity moon – 120 sec
+!gravity jupiter – 180 sec
+!gravity extreme – 240 sec
+!gravity blackhole – 1200 sec
+
+Speed Modifiers
+!speed frozen – 30 sec
+!speed snail – 15 sec
+!speed turtle – 10 sec
+!speed sloth – 7 sec
+!speed koala – 5 sec
+!speed super – 5 sec
+!speed sonic – 7 sec
+!speed hyper – 10 sec
+!speed light – 15 sec
+!speed beyond – 30 sec
+
+Character Modifiers
+!invincible – 60 sec
+!fling – 60 sec
+
+Damage Settings
+!damage 1 – 12 sec
+!damage quarter – 60 sec
+!damage half – 120 sec
+!damage onehit – 240 sec
+
+Healing
+!heal 1 – 3 sec
+!heal quarter – 15 sec
+!heal half – 30 sec
+!heal full – 60 sec
+
+Teleportation & Movement
+!chorus – 60 sec
+
+Hunger Settings
+!hunger 1 – 6 sec
+!hunger quarter – 30 sec
+!hunger half – 60 sec
+!hunger full – 120 sec
+
+Feeding
+!feed 1 – 1 sec
+!feed quarter – 5 sec
+!feed half – 10 sec
+!feed full – 20 sec
+
+Environment Modifiers
+!dig – 30 sec
+!cobweb – 15 sec
