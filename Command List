@@ -1,0 +1,60 @@
+Gameplay & Utility Commands
+!screenshot: Takes a screenshot (F2).
+!perspective: Switches to third-person (F5).
+!selfie: Switches to front-facing third-person (F5 twice).
+!hud: Toggles HUD visibility (F1).
+!debug: Activates debug screen (F3).
+
+Player Actions
+!attack: Performs an attack (Left-click).
+!use: Uses an item or interacts (Right-click).
+!pick: Picks an item (Middle-click).
+!chat: Opens chat (T).
+!inventory: Opens inventory (E).
+!drop <item/all>: Drops the selected item or all items.
+!swap: Switches between items/tools (F).
+!invincible: Grants 10 seconds of invincibility (Resistance, Absorption, Fire Resistance, Regeneration).
+!chorus: Teleports player within an 8-block radius, simulating chorus fruit consumption.
+!fling: Launches player into the air (Levitation, fall damage disabled).
+!dig: Destroys the block beneath the player.
+!cobweb: Places a cobweb at the player’s location.
+
+Movement & Camera Controls
+!180: Performs a 180-degree turn.
+!move <forward/back/left/right/jump/sneak>: Moves the player for 0.5 seconds (~2 steps).
+!speed <frozen/snail/turtle/sloth/koala/super/sonic/hyper/light/beyond>: Adjusts movement speed dynamically.
+!scramble: Randomizes the player's inventory.
+!nojump: Disables jumping for 30 seconds.
+
+Environment Controls
+!weather <clear/rain/thunder>: Changes the weather.
+!difficulty <peaceful/easy/normal/hard>: Adjusts difficulty.
+!gamemode <creative/adventure/spectator>: Switches game mode (returns to survival after 45 sec).
+!timeset <day/noon/night/midnight> or <0-24000>: Sets the in-game time.
+!locate <biome> <biome_name>: Finds a specific biome.
+!locate <structure> <structure_name>: Finds a structure.
+!tickrate <freeze/2-200>: Adjusts game tick rate.
+!gravity <space/moon/jupiter/extreme/blackhole>: Simulates different gravity levels.
+
+Entity Management
+!summon <entity>: Summons an entity (e.g., zombie_horse).
+!ride <entity>: Allows the player to ride entities.
+!scale <entity/player> <0.05-20>: Changes entity/player size.
+
+Item & Effect Management
+!dev <notch/dinnerbone/grumm/jeb>: Provides specific nametags or item.
+!give <item> <count 0-8>: Gives an item. Non-stackles limited to 1 item.
+!slot <1-9>: Selects an inventory slot.
+!effect <effect> <amplifier 1-5>: Applies effect.
+!enchant <enchantment> <level 1-5>: Enchants held item.
+
+Game Commands
+!seed: Displays world seed (/seed).
+!list: Shows online players (/list).
+!particle <particle>: Spawns a particle effect (/particle).
+!sound <sound>: Plays a sound (/playsound).
+!exp <give/take/reset> <levels>: Modifies player experience.
+!damage <1/quarter/half/onehit>: Inflicts damage (/damage or modifies health).
+!heal <1/quarter/half/full>: Restores health (Instant Health, Regeneration).
+!hunger <1/quarter/half/max>: Reduces hunger (Hunger effect).
+!feed <1/quarter/half/full>: Restores hunger (Saturation effect).
