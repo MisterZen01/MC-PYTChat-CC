@@ -77,7 +77,10 @@ If you encounter any issues or have suggestions for improvements, please feel fr
 To see a list of planned improvements and future updates, please review the **Roadmap**.
 
 ## Known Bugs
-- `!drop-all` command sometimes has hiccups and skips some items. Only reliable when standing still
+- `!drop-all` command sometimes has hiccups and skips some items. Only reliable when standing still.
+- `!scramble` command sometimes stutters when scrambling.
+- Sometimes, when closing a world, it gets stuck on 'Saving World" screen
+- Sometimes, all entities and blocks are non-interactive and non-responsive. Not sure if it's the code or my computer causing it. It happened during stream several times and did not crash OBS. A simple restart of Minecraft happened to fixed the issue but still randomly occured
 
 ## Contribution
 Thank you for visiting this repository! Contributions are optional but always appreciated.  You can help by:
