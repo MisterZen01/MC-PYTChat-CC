@@ -1,0 +1,5 @@
+# Lines starting with "#" are ignored.
+
+python="%userprofile%\AppData\Local\Programs\Python\Python312\python.exe"
+autorun[*]= chat
+autorun[*]= cc
