@@ -1,0 +1,61 @@
+!summon Command
+-Restricted Mobs
+Wither, Ender Dragon
+-Passive Mobs
+Allay, Armadillo, Axolotl, Bat, Camel, Cat, Chicken, Cod, Cow, Donkey, Frog, Glow Squid, Horse, Mooshroom, Mule, Ocelot, Parrot, Pig, Pufferfish, Rabbit, Salmon, Sheep, Skeleton Horse, Sniffer, Snow Golem, Squid, Strider, Tadpole, Tropical Fish, Turtle, Villager, Wandering Trader
+-Neutral Mobs
+Bee, Cave Spider, Dolphin, Drowned, Enderman, Fox, Goat, Iron Golem, Llama, Panda, Piglin, Polar Bear, Spider, Trader Llama, Wolf, Zombified Piglin
+-Hostile Mobs
+Blaze, Breeze, Creaking, Endermite, Evoker, Guardian, Hoglin, Husk, Magma Cube, Phantom, Zoglin, Pillager, Shulker, Silverfish, Skeleton, Slime, Stray, Vex, Zombie, Zombie Villager
+-Super Hostile Mobs
+Bogged, Ravager, Wither Skeleton, Piglin Brute, Vindicator, Elder Guardian, Warden, Ghast, Creeper
+-Special Mobs
+Killer Rabbit, Johnny Vindicator, Toast Rabbit, Jeb Sheep, Giant Zombie, Zombie Horse, Illusioner, Spawner Minecart, Charged Creeper, TNT
+
+!give Command
+-Common
+Every other item not in this list
+-Uncommon
+Sniffer Egg, Recovery Compass, Disc Fragment 5, Nautilus Shell, Echo Shard, Pottery Sherd, Ominous Bottle, Ominous Banner, Netherite Upgrade, Sentry Armor Trim, Dune Armor Trim, Coast Armor Trim
+-Uncommon (Single Stack)
+Creeper Charge Banner Pattern, Snout Banner Pattern, Enchanted Book
+-Rare
+Enchanted Golden Apple, Beacon, Nether Star, Ward Armor Trim
+-Rare (Single Stack)
+Flow Banner Pattern, Guster Banner Pattern, Trident
+-Epic
+Dragon Head, Dragon Egg
+-Epic (Single Stack)
+Elytra, Mace
+-Admin Items
+Barrier, Chain Command Block, Impulse Command Block, Debug Stick, Command Block, Light Block, Structure Block, Jigsaw Block, Structure Void
+-Leather
+Helmet, Chestplate, Leggings, Boots
+-Iron, Gold, Diamond, Netherite
+Helmet, Chestplate, Leggings, Boots, Sword, Pickaxe, Axe, Shovel, Hoe
+
+!effect Command
+-Super Positive Effects:
+Hero of the Village, Dolphin’s Grace, Conduit Power
+-Positive Effects:
+Haste, Strength, Jump Boost, Water Breathing, Invisibility
+Night Vision, Slow Falling, Luck
+-Negative Effects:
+Slowness, Mining Fatigue, Nausea, Blindness, Weakness
+Bad Omen, Darkness, Glowing, Unluck
+-Super Negative Effects:
+Poison
+
+!enchant
+-Positive:
+Bane of Arthropods, Breach, Cleaving, Density, Efficiency
+Fire Aspect, Flame, Fortune, Impaling, Infinity
+Knockback, Looting, Loyalty, Luck of the Sea, Lure
+Mending, Multishot, Piercing, Power, Punch
+Quick Charge, Riptide, Sharpness, Silk Touch, Smite
+Sweeping, Unbreaking, Wind Burst, Aqua Affinity, Blast Protection
+Depth Strider, Feather Falling, Fire Protection, Frost Walker
+Projectile Protection, Protection, Respiration, Soul Speed
+Swift Sneak, Thorns
+-Curses:
+Curse of Binding, Curse of Vanishing
