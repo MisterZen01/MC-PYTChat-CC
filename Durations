@@ -1,0 +1,29 @@
+Command Durations:
+
+!nojump: 15 sec
+!gamemode:
+creative: 20 sec
+spectator: 10 sec
+adventure: 20 sec
+!effect: 10 sec
+!tickrate: 10 sec
+!scale:
+player: 30 sec
+!gravity:
+space: 10 sec
+moon: 15 sec
+jupiter: 10 sec
+extreme: 7 sec
+blackhole: 5 sec
+!speed:
+frozen: 7 sec
+snail: 7 sec
+turtle: 10 sec
+sloth: 15 sec
+koala: 20 sec
+super: 20 sec
+sonic: 15 sec
+hyper: 10 sec
+light: 7 sec
+beyond: 5 sec
+!invincible: 10 sec
