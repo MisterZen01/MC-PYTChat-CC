@@ -1,0 +1,34 @@
+Stream from 3/12/25:
+
+!effect slowness: 2x
+!speed frozen: 2x
+!tickrate 2: 2x
+!damage half: 3x
+!drop all: 3x
+!gamemode adventure: 3x
+!gravity moon: 3x
+!scale vindicator 20: 3x
+!summon vex: 3x
+!effect slowness 5: 4x
+!speed sonic: 4x
+!summon skeleton: 4x
+!nojump: 5x
+!summon illusioner: 5x
+!timeset day: 6x
+!scale giant 20: 7x
+!speed beyond: 7x
+!summon phantom: 7x
+!effect poison 5: 8x
+!summon ghast: 10x
+!summon tnt: 10x
+!timeset night: 10x
+!summon giant: 15x
+!scramble: 18x
+!summon vindicator: 19x
+!chorus: 27x
+!cobweb: 27x
+!summon evoker: 32x
+!summon creeper: 41x
+!180: 48x
+!fling: 63x
+!gravity blackhole: 65x
