@@ -61,3 +61,14 @@ Other Ideas:
 
 Needs Testing:
 - Async processing and command queuing for multiple users, first-in, first-out command order
+
+After Stream Test 3/12/25:
+- 2x time for all hostile and some neutral actions 
+- Add global cooldown for certain commands
+- Add evoker to super_hostile category
+- Fix "last_used_time" from crashing crowd control (cc.py) script
+- Add fling to gravity command to prevent combo-ing
+- Add !wolf fling combo (blackhole + fling)
+- Add !wolf poison combo (poison + blackhole)
+- Add !brain combo (blackhole + cobweb + tnt)
+- Prevent cobweb from breaking bed
