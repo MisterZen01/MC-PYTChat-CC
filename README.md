@@ -96,6 +96,4 @@ Donations are also welcome to support the project.
 - Become a YouTube Member starting @ $0.99/mo
 - Donate through YouTube Super Chat
 
-Your involvement means a lot—thank you!
-
-### Thank you for using Control.py!
+### Your involvement means a lot—thank you!
